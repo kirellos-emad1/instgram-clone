@@ -4,7 +4,6 @@
   "main": "app.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "npx tsc",
     "start": "ts-node src/app.ts",
     "watch": "tsc-watch --esModuleInterop src/app.ts --outDir ./dist --onSuccess \"node ./dist/app.js\""
 
